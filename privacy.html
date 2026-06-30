@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Confidentialité — On mange quoi ?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="langtoggle">
+      <button data-set="fr" onclick="setLang('fr')">FR</button>
+      <button data-set="en" onclick="setLang('en')">EN</button>
+    </div>
+
+    <!-- FR -->
+    <div data-lang="fr">
+      <h1>Confidentialité</h1>
+      <p class="tagline">On mange quoi ? est pensée pour respecter ta vie privée : pas de compte, pas de serveur.</p>
+
+      <h2>Tes données restent sur ton téléphone</h2>
+      <p>Tes favoris, tes préférences (allergies, ingrédients que tu n'aimes pas, conditions de santé), ta liste de courses, ton historique et tes réponses au quiz sont enregistrés uniquement sur ton appareil. Rien n'est envoyé vers un serveur — il n'y en a pas.</p>
+
+      <h2>Pas de pistage</h2>
+      <p>Aucune publicité, aucun traceur, aucun outil d'analyse tiers. On ne collecte pas et on ne revend pas tes données.</p>
+
+      <h2>D'où viennent les recettes</h2>
+      <p>Les recettes proviennent de sites tiers (Marmiton, 750g, Cuisine AZ, Journal des Femmes, Chef Simon, HelloFresh, Ptitchef). Leur contenu et leurs images leur appartiennent — on renvoie toujours vers la source d'origine.</p>
+
+      <h2>Intelligence artificielle (optionnelle)</h2>
+      <p>Si une clé OpenAI est configurée (ce n'est pas le cas dans l'app standard), tes mots-clés de recherche peuvent être envoyés à OpenAI pour affiner les résultats. En mode hors-ligne par défaut, rien ne quitte ton téléphone.</p>
+
+      <h2>Données de santé</h2>
+      <p>Les allergies et conditions que tu renseignes sont des informations sensibles. Elles restent sur ton appareil et servent uniquement à filtrer les recettes, localement. Ce ne sont pas des conseils médicaux — consulte un professionnel de santé.</p>
+
+      <h2>Supprimer tes données</h2>
+      <p>Tout est stocké localement : désinstaller l'application efface l'ensemble de tes données.</p>
+
+      <h2>Une question ?</h2>
+      <a class="btn" href="mailto:contact@onmangequoi.app">Nous écrire</a>
+
+      <div class="nav"><a href="index.html">Accueil</a><a href="support.html">Aide &amp; support</a></div>
+      <p class="updated">Dernière mise à jour : 30 juin 2026</p>
+    </div>
+
+    <!-- EN -->
+    <div data-lang="en" hidden>
+      <h1>Privacy</h1>
+      <p class="tagline">On mange quoi? is built to respect your privacy: no account, no server.</p>
+
+      <h2>Your data stays on your phone</h2>
+      <p>Your favorites, preferences (allergies, disliked ingredients, health conditions), shopping list, history and quiz answers are stored only on your device. Nothing is sent to a server — there isn't one.</p>
+
+      <h2>No tracking</h2>
+      <p>No ads, no trackers, no third-party analytics. We don't collect or sell your data.</p>
+
+      <h2>Where recipes come from</h2>
+      <p>Recipes come from third-party sites (Marmiton, 750g, Cuisine AZ, Journal des Femmes, Chef Simon, HelloFresh, Ptitchef). Their content and images belong to them — we always link back to the original source.</p>
+
+      <h2>Artificial intelligence (optional)</h2>
+      <p>If an OpenAI key is configured (not the case in the standard app), your search keywords may be sent to OpenAI to refine results. In the default offline mode, nothing leaves your phone.</p>
+
+      <h2>Health data</h2>
+      <p>The allergies and conditions you enter are sensitive. They stay on your device and are used only to filter recipes, locally. This is not medical advice — consult a healthcare professional.</p>
+
+      <h2>Deleting your data</h2>
+      <p>Everything is stored locally: uninstalling the app erases all your data.</p>
+
+      <h2>A question?</h2>
+      <a class="btn" href="mailto:contact@onmangequoi.app">Email us</a>
+
+      <div class="nav"><a href="index.html">Home</a><a href="support.html">Help &amp; support</a></div>
+      <p class="updated">Last updated: June 30, 2026</p>
+    </div>
+  </div>
+  <script src="lang.js"></script>
+</body>
+</html>

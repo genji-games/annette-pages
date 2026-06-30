@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>On mange quoi ?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="langtoggle">
+      <button data-set="fr" onclick="setLang('fr')">FR</button>
+      <button data-set="en" onclick="setLang('en')">EN</button>
+    </div>
+    <div class="badge">🍽️</div>
+
+    <div data-lang="fr">
+      <h1>On mange quoi ?</h1>
+      <p class="tagline">Dis-moi ton humeur, je te trouve un bon plat.</p>
+      <p>Une application mobile qui t'aide à décider quoi cuisiner en quelques questions.</p>
+      <div class="nav">
+        <a href="privacy.html">Confidentialité</a>
+        <a href="support.html">Aide &amp; support</a>
+        <a href="mailto:contact@onmangequoi.app">Contact</a>
+      </div>
+    </div>
+
+    <div data-lang="en" hidden>
+      <h1>On mange quoi?</h1>
+      <p class="tagline">Tell me your mood, I'll find you a good dish.</p>
+      <p>A mobile app that helps you decide what to cook in a few questions.</p>
+      <div class="nav">
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Help &amp; support</a>
+        <a href="mailto:contact@onmangequoi.app">Contact</a>
+      </div>
+    </div>
+  </div>
+  <script src="lang.js"></script>
+</body>
+</html>

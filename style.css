@@ -1,11 +1,11 @@
 :root {
-  --bg: #fdf6ec;
-  --ink: #33312e;
-  --muted: #6b675f;
-  --primary: #e07a5f;
-  --peach: #f6d9c6;
-  --border: #ece4d6;
-  --surface: #fffdf9;
+  --bg: #F7F3E3;
+  --ink: #242423;
+  --muted: #6C6C72;
+  --primary: #7E7F9A;
+  --peach: #E7E7EF;
+  --border: #E7E1CE;
+  --surface: #FFFFFF;
 }
 * { box-sizing: border-box; }
 body {
